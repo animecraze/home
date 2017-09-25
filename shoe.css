@@ -1,0 +1,71 @@
+html
+{
+background: url(portal.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color:black;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 40px 70px;
+    text-decoration: none;
+    font-size: 25px;
+	font-family: papyrus, courier, sans-serif;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+p
+{
+	margin-left: 200px;
+	margin-right: 200px;
+	color: white;
+	font-size: 150%
+}
+h1
+{
+	font-family: 'Frijole', cursive;
+    color: white;
+	text-align: center;
+	 font-size: 50px;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+ul
+{ 
+   margin-left: 200px;
+   color:white;
+   font-size: 150%;
+}
+h2
+{
+	font-family: 'Frijole', cursive;
+    color: white;
+	text-align: center;
+	 font-size: 40px;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+   
